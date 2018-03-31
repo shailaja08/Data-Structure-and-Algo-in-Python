@@ -10,7 +10,7 @@ def selection_sort(num):
             num[minIndex],num[i]=num[i],num[minIndex]
             #print(num)
     return num
-
+## Bubble_Sort
 def bubble_sort(num):
     for i in range(len(num)-1,0,-1):
         for j in range(i):
@@ -28,6 +28,7 @@ def improved_bubble_sort(num):
         if swap==0:
             break
     return num
+#Insertion_sort
 def insertion_sort(num):
     for i in range(1,len(num)):
         temp=num[i]
